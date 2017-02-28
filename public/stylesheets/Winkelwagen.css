@@ -1,0 +1,85 @@
+.winkelwagen-product{
+	height:auto;
+}
+
+.winkelwagen-product .ProductImage{
+	width:168px;
+	height:100%;
+	float:left;
+	background-image: url("https://camo.githubusercontent.com/f8ea5eab7494f955e90f60abc1d13f2ce2c2e540/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f323037383234352f3235393331332f35653833313336322d386362612d313165322d383435332d6536626439353663383961342e706e67");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.winkelwagen-product .ProductInfo{
+	width:calc(100% - 168px);
+	height:100%;
+	float:left;
+}
+
+.winkelwagen-product .ProductInfo .ArtikelInfo{
+	width:40%;
+	height:100%;
+	float:left;
+}
+
+.winkelwagen-product .ProductInfo .ArtikelInfo p{
+width:100%;
+float:left;
+margin:3px !important;
+}
+
+.productTitle{
+	font-weight: bold;
+	color:#03a9f4;
+}
+
+.VandaagInHuis{
+	color:#73D573;
+}
+
+
+.winkelwagen-product .ProductPrijsInfo {
+	width:30%;
+	height:100%;
+	float:left;
+	text-align: center;
+	padding-top:25px;
+}
+
+.winkelwagen-product .ProductPrijsInfo p{
+	float: right;
+	font-size: 25px;
+	margin:12.5px;
+}
+
+.ButtonSmall{
+	font-size: 25px;
+	width:40px;
+	height:40px;
+	margin:8px;
+	background-color:#03a9f4;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	float:right;
+}
+
+.ProductListItem{
+		height:168px;
+	border-top: 1px solid rgb(224,224,224);
+	padding:8px;
+}
+
+.ProductFinalPrice{
+	padding-top:25px;
+	width:30%;
+	height:100%;
+	float:left;
+}
+
+.ProductFinalPrice p{
+	float: right;
+	font-size: 25px;
+	margin:12.5px;
+}

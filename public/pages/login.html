@@ -1,0 +1,38 @@
+<h4 class="topSpaceX4">Mijn CowShop account</h4>
+<div class="row topSpaceX2">
+	<div class="col s12 m6 l6">
+		<div>
+			<h5>Inloggen</h5>
+			<div class="row topSpaceX2">
+			    <div class="input-field col s12">
+			    	<label for="email_input">Email</label>
+				    <input placeholder="Email" id="email_input" type="text" class="validate">
+			    </div>
+			    <div class="input-field col s12">
+			        <label for="password_input">Wachtwoord</label>
+				    <input placeholder="Wachtwoord" id="password_input" type="password" class="validate">
+			    </div>
+				<span id="submitLogin" class="waves-effect waves-light light-blue btn topSpaceX2">Inloggen</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="col s12 m6 l6">
+		<blockquote class="registerbox">
+		  <h5>Registreren</h5>
+	      <p class="topSpaceX2">Ik wil een nieuw gebruikersprofiel aanmaken</p>
+	      <span class="waves-effect waves-light light-blue btn topSpaceX2" onClick="navigateTo('registration.html');">Registreren</span>
+	    </blockquote>
+	          
+	</div>
+</div>
+<script>
+
+$(function(){
+	$("#submitLogin").click(function(){
+		let wrapperPassword = $("#password_input").val();
+		let wrapperEmail = $("#email_input").val();
+		accountController.login(wrapperEmail,wrapperPassword);
+	});
+});
+</script>

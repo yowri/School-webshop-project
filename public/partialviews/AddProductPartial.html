@@ -1,0 +1,34 @@
+<div class="row">
+	<div class="col s12 textCenter">
+		<h3>Add new Product</h3>
+		<blockquote>Here you can add a new product to your webshop</blockquote>
+	</div>
+</div>
+<div class="row">
+		<div class="input-field col s8">
+          <input placeholder="Product Name here" id="ProductName" type="text" class="validate">
+          <label for="ProductName" class="active">Product Name</label>
+        </div>
+        <div class="input-field col s4">
+          <input placeholder="0" id="ProductPrice" type="number" class="validate">
+          <label for="ProductPrice" class="active">Product Price EURO</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea placeholder="Product Discription here" id="ProductDiscription" class="materialize-textarea"></textarea>
+          <label for="ProductDiscription" class="active">Product Discription</label>
+        </div>
+        <div class="col s12">
+        	 <select class="browser-default" id="CategorySelect">
+			    <option value="" disabled selected>Choose a Category</option>
+			  </select>
+        </div>
+          <div class="file-field input-field col s12">
+		      <div class="btn">
+		        <span>File</span>
+		        <input type="file" id="NewProductImage" accept="image/*">
+		      </div>
+		      <div class="file-path-wrapper">
+		        <input class="file-path validate" type="text" placeholder="Upload your image">
+		      </div>
+		    </div>
+</div>

@@ -1,0 +1,85 @@
+<div id="header" class="navbar-fixed">
+  <div class="topContainer  light-blue accent-4">
+    <div class="container"><div class="text">Welkom <span id="username" class="username">Gast</span>!<span class="logoff right"><a href="javascript:;">Uitloggen</a></span></div>
+    </div>
+  </div>
+  <nav class="light-blue">
+    <div class="nav-wrapper container">
+
+      <a href="#!" class="brand-logo">{{appName}}</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="javascript:;" onclick="navigateTo('home.html')">
+            <i class="smallIcon material-icons left">home</i>Home
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" onclick="navigateTo('producten.html')">
+          <i class="smallIcon material-icons left">view_column</i>Producten
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;"  onclick="navigateTo('account.html')">
+            <i class="smallIcon material-icons left">account_circle</i>Account  
+          </a>
+        </li>
+        <li id="wg">
+          <a href="javascript:;" onclick="navigateTo('winkelwagen.html')">
+            <i class="smallIcon material-icons left">shopping_cart</i>Winkelwagen           
+          </a>
+        </li>
+      </ul>
+     
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="javascript:;" onclick="navigateTo('home.html')">Home</a></li>
+        <li><a href="javascript:;" onclick="navigateTo('producten.html')">Producten</a></li>
+        <li><a href="javascript:;" onclick="navigateTo('account.html')" >Account</a></li>
+        <li ><a href="javascript:;" onclick="navigateTo('winkelwagen.html')">Winkelwagen</a></li>
+      </ul>
+
+    </div>
+    
+  </nav>
+ 
+</div>
+
+<div id="slider" class="slider">
+ <ul class="slides">
+    <li>
+      <img src="/content/images/zwaaiendeChinees.jpg">
+      <div class="caption center-align">
+        <h3>De beste kwaliteits producten!</h3>
+        <h5 class="light grey-text text-lighten-3">Alleen bij {{appName}}.</h5>
+      </div>
+    </li>
+ </ul>
+</div>
+<div id="content" class="container"></div>
+<div id="footer">
+  <footer class="page-footer" class="grey darken-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">{{appName}}</h5>
+                <p class="grey-text text-lighten-4">Project Webshop 2016 door Yori, Vince, Michael, Jorn en Angelo.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="javascript:;" onclick="navigateTo('home.html')">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="javascript:;" onclick="navigateTo('producten.html')">Producten</a></li>
+                  <li><a class="grey-text text-lighten-3" href="javascript:;"  onclick="navigateTo('account.html')">Account</a></li>
+                  <li><a class="grey-text text-lighten-3" href="javascript:;" onclick="navigateTo('winkelwagen.html')">Winkelwagen</a></li>
+                  <li><a class="grey-text text-lighten-3" href="javascript:;" onclick="navigateTo('cms.html')">CMS</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright grey darken-2">
+            <div class="container white-text">
+            © 2016 Copyright Text
+            </div>
+          </div>
+   </footer>
+</div>

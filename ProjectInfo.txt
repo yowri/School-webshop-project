@@ -1,0 +1,20 @@
+//Navigatie
+
+pagina navigate is makkelijk te doen doormiddel van navigateTo('voorbeeldvanbestand.html'); in javascript en onClick="navigateTo('voorbeeldvanbestand.html')" in html
+dit gaat er vanuit dat de pagina zich bevind in de public/pages folder
+
+//Database
+
+De mogelijkheid bestaat om direct een qeury uit te voeren vanaf de clientside.
+dit kan je doen door
+ 			database.query("SELECT dingen FROM dingen",function(data){
+					//data is de gevraagde data als werkbaar javascript object			
+			});
+
+te roepen.(alleen javascript)
+
+
+//Gebruiker
+
+je kan de ingelogte gebruiker uit de sessie halen door sessionStorage.getItem("user"); te roepen.
+je ontvangt de gebruiker dan als json.

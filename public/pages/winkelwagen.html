@@ -1,0 +1,45 @@
+<script src="../javascript/winkelwagen/WinkelwagenDetails.js"></script>
+<link rel="stylesheet" type="text/css" href="../../stylesheets/Winkelwagen.css">
+<div class="divider winkelwagen-divider"></div>
+<div>
+	<h4>Winkelwagen</h4>
+</div>
+<div class="rows">
+
+	<!-- winkelwagen content-->
+	<div class="winkelwagen-product row">
+			
+	</div>
+
+
+	<div class="row winkelwagen-totaal">
+		<div class="col s4 offset-s8">
+			<div class="card darken-1">
+		      <div class="card-action">
+		        <div>
+		          <!--Totaal aantal artikelen + totale prijs zonder korting-->
+		          <div>
+		            <span>Totaal artikelen <!--Totaal aantal prodcuten in winkelwagen--></span>
+		            <span class="checkout-float-right">&euro; <span id="totaalPrijsArtikelen"></span></span>
+		          </div>
+		          <!--Verzendkosten-->
+		          <div>
+		            <span>Verzendkosten</span>
+		            <span class="marker-green checkout-float-right">Gratis</span>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="card-action">
+		        <div>
+		          <span class="marker-bold">Totaal</span>
+		          <span class="marker-bold checkout-float-right">&euro; <span id="totaalprijs"></span></span>
+		        </div>
+		      </div>
+		    </div>
+			</div>
+		</div>
+		<a class="checkout-button waves-effect waves-light btn blue" href="javascript:;" onclick="navigateTo('checkout.html')">
+			<i class="material-icons left">checkout</i>Checkout
+		</a>
+	</div>
+</div>

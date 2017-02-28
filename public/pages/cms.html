@@ -1,0 +1,56 @@
+<script src="/javascript/CMS/CMS.js"></script>
+<script src="/javascript/CMS/CMSBase.js"></script>
+<link rel="stylesheet" type="text/css" href="/stylesheets/CMS.css">
+
+<div class="row">
+	<h2>CMS</h2>
+	<blockquote>
+      In the cms you can add your products and create new categorys
+    </blockquote>
+</div>
+ <div class="z-depth-1">
+  <div class="row noMarginBottom">
+    <div class="col s12">
+      <ul class="tabs overflowHidden">
+        <li class="tab col s3"><a class="active colorBlack" href="#ProductenCMS">Producten</a></li>
+        <li class="tab col s3"><a class="colorBlack" href="#CatagorieenCMS">Categorieen</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row noMarginBottom">
+    <div class="col s12">
+     	<div class="ProductenSorting">
+     		
+     	</div>
+    </div>	
+  </div>
+  <div class="row">
+  	<div class="col s12">
+  		<div class="ItemList posRelative">
+  			<div id="ProductenCMS" class="col s12 noPadding">
+    			<a class="btn-floating btn-large waves-effect waves-light baseBackgroundColor addButton" id="addNewProduct"><i class="material-icons">add</i></a>
+    		</div>
+        
+    		<div id="CatagorieenCMS" class="col s12 noPadding">
+    			<a class="btn-floating btn-large waves-effect waves-light baseBackgroundColor addButton" id="addNewCatagory"><i class="material-icons">add</i></a>
+   			 </div>
+
+   			 <!-- add button-->
+   			  
+  		</div>
+  	</div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="BaseModal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+    <a href="javascript:;" class="modal-action modal-close waves-effect waves-green btn-flat Close" style="float:left;">Close</a>
+      <a href="javascript:;" class="modal-action waves-effect waves-green btn-flat Submit">Agree</a>
+    </div>
+  </div>
+
+ </div>

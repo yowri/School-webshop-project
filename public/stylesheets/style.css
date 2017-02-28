@@ -1,0 +1,250 @@
+#content{
+	min-height: 80vh;
+}
+
+.topContainer{
+	height:24px;
+	line-height: 24px;
+	width: 100%;
+	position: fixed;
+}
+
+.navbar-fixed {
+    height: 72px!important;
+}
+
+.topContainer .text{
+	color:white;
+	opacity: 0.8;
+}
+
+.text .logoff a {
+	color:white;
+}
+
+nav{
+	margin-top: 24px!important;
+}
+
+#sidenav-overlay{
+	opacity: 0!important;
+}
+
+.slider {
+    height: 700px!important;
+}
+.slides {
+	min-height: 700px!important;
+}
+
+.slides li {
+	min-height: 700px!important;
+}
+
+.smallIcon{
+	font-size: 25px!important;
+}
+
+blockquote{
+	border-left-color:#03a9f4!important;
+}
+
+.registerbox{
+	min-height: 30vh;
+	max-height: 300px;
+}
+
+/*size helpers */
+.fullheight{
+	height: 100%;
+}
+
+/*spacing*/
+.topSpace {
+	margin-top: 16px;
+}
+.topSpaceX2 {
+	margin-top: 32px;
+}
+.topSpaceX4 {
+	margin-top: 64px;
+}
+<<<<<<< Updated upstream
+/*Checkout en winkelwage */
+.checkout-nav {
+	background-color: #028AC7!important;
+}
+
+.marker-green {
+	color: green!important;
+}
+
+.marker-bold {
+	font-weight: bold!important;
+}
+
+.checkout-float-right {
+	float: right!important;
+}
+
+.checkout-divider {
+	margin-bottom: 3px!important;
+}
+
+.winkelwagen-image {
+	width: 150px!important;
+	height: 150px!important;
+}
+
+.winkelwagen-divider {
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+
+.checkout-button {
+	float: right!important;
+}
+
+.winkelwagen-totaal {
+	background-color: #FFF7E0!important;
+}
+
+.winkelwagen-align-center {	
+}
+
+
+/*producten*/
+
+.cell-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.cell{
+      border: 1px solid #e0e0e0;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+#gallery{
+      width: 100%;
+    margin: auto;
+    margin-top:20px;
+}
+.cell-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.cell:hover{
+    box-shadow: 0 0 10px  #ccc;
+    cursor:pointer;
+}
+.collection a.collection-item {
+  color: #03a9f4 !important;
+}
+h3{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.collection {
+  border:none;
+}
+.txt-category{
+  font-size: 1.5rem;
+}
+.row-category{
+  margin-top: 56px;
+  text-align: center;
+  font-size: 20px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.product-image{
+  width: 100%;
+  height: 100%;
+}
+.show-products{
+  height: 140px;
+}
+select{
+  display: block;
+}
+i.display-sort{
+  font-size: 3rem;
+  color:#B7B7B7;
+}
+i.display-sort:hover{
+  cursor:pointer;
+  color:grey;
+}
+.first-row{
+  margin-top:20px;
+}
+.product-title{
+  font-weight: bold;
+}
+.product-title:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}
+.product-prijs{
+      font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.show-image-block{
+  background-image: url("/content/images/Products/bel.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+}
+.product-voorraad{
+  text-align: center;
+  color: #A2A2A2;
+  font-size: 14px;
+}
+.product-block{
+  border: 1px solid #e0e0e0;
+   padding: 5px;
+   box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.product-block:hover{
+   box-shadow: 0 0 10px  #ccc;
+    cursor:pointer;
+}
+.row .product-block{
+    width: 31.5% !important;
+    margin: 1.5%;
+}
+.row-product{
+  border-bottom: 1px solid #e0e0e0;
+}
+.back{
+    float: left;
+    color: #AFAFAF;
+    line-height: 32px;
+}
+.back-arrow{
+  float: left;
+    color: #AFAFAF;
+    margin-top:5px;
+}
+.back:hover{
+  cursor:pointer;
+
+}
+.back-arrow:hover{
+  cursor:pointer;
+}
+.product-partial-image{
+  width: 100%;
+
+}

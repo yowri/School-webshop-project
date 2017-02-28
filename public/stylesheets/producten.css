@@ -1,0 +1,154 @@
+.cell-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.cell{
+      border: 1px solid #e0e0e0;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+#gallery{
+      width: 100%;
+    margin: auto;
+    margin-top:20px;
+}
+.cell-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.cell:hover{
+    box-shadow: 0 0 10px  #ccc;
+    cursor:pointer;
+}
+.collection a.collection-item {
+  color: #03a9f4 !important;
+}
+h3{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.collection {
+  border:none;
+}
+.txt-category{
+  font-size: 1.5rem;
+}
+.row-category{
+  margin-top: 56px;
+  text-align: center;
+  font-size: 20px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.product-image{
+  width: 100%;
+  height: 100%;
+}
+.show-products{
+  height: 140px;
+}
+select{
+  display: block;
+}
+i.display-sort{
+  font-size: 3rem;
+  color:#B7B7B7;
+}
+i.display-sort:hover{
+  cursor:pointer;
+  color:grey;
+}
+.first-row{
+  margin-top:20px;
+}
+.product-title{
+  font-weight: bold;
+}
+.product-title:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}
+.product-prijs{
+      font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.show-image-block{
+  background-image: url("/content/images/Products/bel.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+}
+.product-voorraad{
+  text-align: center;
+  color: #A2A2A2;
+  font-size: 14px;
+}
+.product-block{
+  border: 1px solid #e0e0e0;
+   padding: 5px;
+   box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 400px;
+}
+.product-block .product-title{
+  height: 44px;
+}
+.product-block:hover{
+   box-shadow: 0 0 10px  #ccc;
+    cursor:pointer;
+}
+.row .product-block{
+    width: 31.5% !important;
+    margin: 1.5%;
+    margin-top: 20px;
+}
+.row-product{
+  border-bottom: 1px solid #e0e0e0;
+}
+.back{
+    float: left;
+    color:#039be5 !important;
+    line-height: 33px;
+    font-size:16px;
+}
+.back-arrow{
+  float: left;
+    color: #039be5;
+    margin-top:8px;
+    font-size:18px;
+}
+.back:hover{
+  cursor:pointer;
+
+}
+.back-arrow:hover{
+  cursor:pointer;
+}
+.product-partial-image{
+  width: 100%;
+
+}
+.first-row{
+  display: none;
+}
+footer{
+  margin-top:120px !important;
+}
+.price-tag{
+  padding: 1px 20px;
+}
+.home-products .product-block{
+    width: 23.5% !important;
+    margin: 1.5%;
+    margin-top: 20px;
+}

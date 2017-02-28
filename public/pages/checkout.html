@@ -1,0 +1,107 @@
+<script src="../javascript/winkelwagen/checkout.js"></script>
+<link rel="stylesheet" type="text/css" href="../../stylesheets/Checkout.css">
+
+<div class="row">
+  <div class="col s4">
+    <div class="card darken-1">
+      <div class="card-content black-text">
+        <span class="card-title">Winkelwagentje</span>
+        <!--Aantal artikelen in Winkelwagentje-->
+        <p> artikel</p>
+        <!--plaatje + naam van het artikel-->
+        <p></p>
+      </div>
+      <div class="card-action">
+        <div>
+          <!--Totaal aantal artikelen + totale prijs zonder korting-->
+          <div>
+            <span>Totaal artikelen <!--Totaal aantal prodcuten in winkelwagen--></span>
+            <span class="checkout-float-right">&euro; <span id="totaalArtikelPrijs"></span></span>
+          </div>
+          <!--Verzendkosten-->
+          <div>
+            <span>Verzendkosten</span> 
+            <span class="marker-green checkout-float-right">Gratis</span>
+          </div>
+          <!--Aantal % korting + totale korting.-->
+
+        </div>
+      </div>
+      <div class="card-action">
+        <div>
+          <span class="marker-bold">Nog te betalen</span>
+          <span class="marker-bold checkout-float-right">&euro; <span id="totaalPrijs"></span></span>
+        </div>
+        <a href="javascript:;" onclick="navigateTo('winkelwagen.html')">
+        <i class="smallIcon material-icons left">shopping_cart</i>Winkelwagen           
+        </a>
+      </div>
+    </div>
+	</div>
+	<div class="col s8">
+  	<div class="row">
+			<nav>
+			 <div class="checkout-nav nav-wrapper">
+			    <div class="col s12">
+			      <a href="javascript:;" id="mijngegevens" class="breadcrumb">1. Mijn gegevens</a>
+            <a href="javascript:;" id="betalen" class="breadcrumb">2. Betalen</a>
+            <a href="javascript:;" id="Bevestigen" class="breadcrumb">3. Bevestiging</a>
+			    </div>
+			  </div>
+		  </nav>
+      <div class="row" id="MijnGegevensItem">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Voornaam</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Achternaam</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="phone_number" type="text" class="validate">
+            <label for="phone_number">Telefoonnummer</label>
+          </div>
+          <div class="input-field col s10">
+            <input id="street_name" type="text" class="validate">
+            <label for="street_name">Straatnaam</label>
+          </div>
+          <div class="input-field col s2">
+            <input id="home_number" type="text" class="validate">
+            <label for="home_number">Huisnummer</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="postal_code" type="text" class="validate">
+            <label for="postal_code">Postcode</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="residence" type="text" class="validate">
+            <label for="residence">Woonplaats</label>
+          </div>
+      </div>	
+		</div>
+
+    <!-- betalen pagina -->
+    <div class="rows" id="BetalenItem">
+        
+    </div>
+
+    <!-- bevistige pagina -->
+    <div class="rows" id="BevestigenItem">
+
+    </div>
+
+      <div class="rows">
+          <div class="col s12">
+              <a class="waves-effect waves-light btn blue" id="NextButton">Betalen</a>
+          </div>
+      </div>
+    
+
+    <div class="col s8">
+      <div class="rows">
+
+      </div>
+    </div>
+	</div>
+</div>

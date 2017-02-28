@@ -1,0 +1,8 @@
+<script>
+	var sessionUser = sessionStorage.getItem("user");
+	if(sessionUser!=null){
+		navigateTo("profile.html");
+	} else {
+		navigateTo("login.html");
+	}
+</script>
